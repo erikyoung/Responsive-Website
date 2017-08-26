@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- need the viewport adjuster -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <body>
+
+        <!--header -->
+        <header>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 pull-left">
+                        <!--need to resize this image -->
+                        <img class="title-logo" src="images_src/mountain-logo.jpg" id="logo" alt="logo with mountain">
+                    </div>
+
+                    <div class="col-md-6 text-right" id="erik">
+                        <h1 class="title-super text-thin">Erik Young</h1>
+                        <h3>Front-end Ninja</h3>
+                    </div>
+                    <div class="col-xs-10-col-xs-offset-1">
+                        <colgroup>
+                            <hr>
+                        </colgroup>
+                    </div>
+        </header>
+        <!--header-->
+
+        <br />
+
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="img-responsive col-xs-12-col-xs-offset-1" id="erik">
+                        <picture>
+                            <a href="https://medium.com/@erikyoung_58444"><img class="img-responsive" srcset="images_src/erik.jpg" alt="self-portrait">
+                            </a>
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <!--container-->
+            <br />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-muted">Featured Work</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <img class="img-responsive" id="course_website" src="https://monetizepros.com/wp-content/uploads/2015/09/Dollarphotoclub_90474714.jpg" data-toggle="modal" data-target="#flixter">
+                        <h3>Flixter</h3>
+                        <p><a href="https://dashboard.heroku.com/apps/flixter-erik" class="btn btn-primary btn-lg active" role="button">Link to project</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-responsive" id="eat_where" src="https://thecitylane.com/wp-content/uploads/2013/06/SCF0222.jpg" data-toggle="modal" data-target="#nomster">
+                        <h3>Nomster</h3>
+                        <p><a href="https://nomster-erik.herokuapp.com/" class="btn btn-primary btn-lg active" role="button">Link to project</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <img class="img-responsive" id="dating" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujF3t-l0FCVOiuW2gWDQEs3M48eenvuKI_IqoI5cUW23jpAdU" data-toggle="modal" data-target="#datingspot">
+                        <h3>DatingSpot</h3>
+                        <p><a href="https://datingspot.herokuapp.com/" class="btn btn-primary btn-lg active" role="button">Link to project</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-responsive" id="chess" src="http://www.wikihow.com/images/a/aa/Improve-the-Position-of-Your-Pieces-in-a-Chess-Game-Step-7.jpg" data-toggle="modal" data-target="#codemasters">
+                        <h3>CodeMasters</h3>
+                        <p><a href="https://github.com/firehose-codemasters/codemasters_chess" class="btn btn-primary btn-lg active" role="button">Link to project</a>
+                        </p>
+                    </div>
+                </div>
+                <!--row text-center -->
+            </div>
+            </container>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="flixter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Flixter</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://monetizepros.com/wp-content/uploads/2015/09/Dollarphotoclub_90474714.jpg">
+                            <br /> 
+                            <br />
+                            This was the first time that I had built anything that dealt with nested associations. In this project, I had to juggle the sign in for teachers to create new courses and to edit courses while also allowing users to purchase courses and to be able to view materials they paid for.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 2 -->
+            <div class="modal fade" id="nomster" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Nomster</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="http://www.marrakechguidetours.com/wp-content/uploads/mobile_where_to_eat.jpg">
+                            <br />
+                            <br /> This was an app I built out that taps into a lot of different aspects. On a small scale, I had to decide that this was going to give the user pictures and location to a given place, and also some information that would allow users to give feedback on their experiences.
+                            <br />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 3 -->
+            <div class="modal fade" id="datingspot" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">DatingSpot</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujF3t-l0FCVOiuW2gWDQEs3M48eenvuKI_IqoI5cUW23jpAdU">
+                            <br /> This a crack at a blog that I created. This blog not only allows you to create content and write about issues your having, but it also allows you to upload information about places that are good to visit for a date.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 4-->
+            <div class="modal fade" id="codemasters" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">CodeMasters</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="http://www.wikihow.com/images/a/aa/Improve-the-Position-of-Your-Pieces-in-a-Chess-Game-Step-7.jpg">
+                            <br /> This app was a monster. Starting out with a wireframe made with Balsamiq, we then drew up the backend by building out all the logic for the board and the pieces of the game, including how to capture and to move and how to recognize obstructions (other pieces that may be in the way of your move). Afterwards, we stretched our limits on our javascript to move the pieces and update them on the board. All told, this took more than 3 months to build out.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+
+        <footer>
+            <div class="container">
+                <div class="col-xs-12 col-sm-3">
+                    <b class="contact-info" id="character_size_footer">Contact</b>
+                    <br /> youngerik26@gmail.com
+                    <br /> 702 Nguyen Van Linh
+                    <br /> Ho Chi Minh City, Vietnam, 7000
+                </div>
+                <div class="col-xs-12 col-sm-3 social">
+                    <b class="social-title">Social</b>
+                    <br />
+                    <br />
+                    <picture>
+                        <a href="https://github.com/erikyoung"><img class="social-button" src="images_src/github.png">
+                        </a>
+                        <a href="https://www.facebook.com/erik.young.923"><img class="social-button" src="images_src/facebook.png">
+                        </a>
+                        <a href="https://twitter.com/youngerik26"><img class="social-button" src="images_src/twitter.png">
+                        </a>
+                    </picture>
+                </div>
+            </div>
+        </footer>
+        <!--footer -->
+
+    </body>
+
+</html>
